@@ -17,6 +17,7 @@ a{
 body{
     font-family: 'Arial', sans-serif;
     color: #999;
+    background: #000;
 }
 
 img{
@@ -131,6 +132,42 @@ img{
     border-bottom: 3px solid var(--primary-color);
 }
 
+/* TAB CONTENT */
+
+.tab-content{
+    padding: 3rem 0;
+}
+
+#tab-1-content .tab-1-content-inner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* TEXT STYLES */
+
+.text-lg{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.text-xl{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-dark{
+    color: #999;
+}
+
+
 /* CONTAINER */
 
 .container{
@@ -155,6 +192,7 @@ img{
     font-size: 1rem;
     border: none;
     margin-right: 0.5rem;
+    color: #fff;
 }
 
 .btn:hover{
